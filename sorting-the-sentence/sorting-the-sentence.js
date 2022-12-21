@@ -16,6 +16,6 @@ var sortSentence = function (s) {
     for (let num = 1; num <= WORD_NUMS.length; num++) {       
         ans.push(map[num]);                                   
     }
-    return ans.join(" ");                                     
+    return ans.join(" ");                                    
 };
 
