@@ -3,9 +3,9 @@
  * @return {number[]}
  */
 var findOriginalArray = function(changed) {
-     if (changed.length % 2 === 1) return []; // get rid of odd-length inputs
+     if (changed.length % 2 === 1) return []; 
     let double = true;
-    changed.sort((a,b)=>a-b) // sort array in ascending order
+    changed.sort((a,b)=>a-b) 
     let i = 0;
     while (i < changed.length){
         let pos = changed.indexOf(changed[i]*2, i+1);
